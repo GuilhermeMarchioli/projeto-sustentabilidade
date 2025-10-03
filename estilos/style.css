@@ -16,6 +16,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
 }
 
 /* Particulas */
@@ -148,5 +149,5 @@ section#sobre span {
 }
 
 section#sobre img {
-    width: 100px;
+    width: 90%;
 }
