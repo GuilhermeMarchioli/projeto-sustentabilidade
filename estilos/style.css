@@ -122,10 +122,6 @@ section#sobre {
     align-items: center;
 }
 
-section#aobre article {
-    
-}
-
 section#sobre h1 {
     font-family: 'MyLeaf';
     color: rgb(2, 139, 71);
@@ -151,3 +147,37 @@ section#sobre span {
 section#sobre img {
     width: 90%;
 }
+
+/* PROBLEMA */
+section#problema {
+    margin: auto;
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section#problema h1 {
+    font-family: 'MyLeaf';
+    color: rgb(2, 139, 71);
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+section#problema p {
+   margin: 20px;
+   font-size: 1rem;
+   color: rgb(40, 116, 110);
+   text-align: justify;
+}
+
+section#problema span {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(0, 128, 90);
+}
+
