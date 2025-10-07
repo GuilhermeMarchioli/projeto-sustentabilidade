@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <title>Projeto Áurea Verde | Ecologia e Sustentabilidade</title>
     <script src="https://kit.fontawesome.com/f1da051f34.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
     <!-- Particulas -->
@@ -18,7 +19,7 @@
 
         <!-- Menu Mobile -->
             </span>
-        <menu id="itens">
+        <menu id="itens"  class="slide-bottom">
             <a href="#home">Home</a>
             <a href="#sobre">Sobre Nós</a>
             <a href="#problema">O Problema</a>
@@ -56,18 +57,65 @@
             <img src="assets/imgs/sobre-image.png" alt="sobre-image">
         </section>
 
-        <section id="#problema">
+        <section id="problema">
             <article>
                 <h1>O Problema:</h1>
                 <p>  <span>U</span>M dos temas mais abordados dentro da ecologia é com certeza o aquecimento global, proviniente do efeito estufa, que afeta a qualidade de vida dos seres vivos e o cenário socioeconomico mundial. Existem diversos fatores que contribuem para esse fenomeno, como a emissão de gáses do efeito estufa, essas emissoes acontecem no desmatamento, no funcionamento das atividades industriais, na criação de gado, no funcionamento de veículos movidos a gasolina, no descarte incorreto de lixo e etc. Ao pesquisarmos delicadamente fatores contribuentes e ações a serem tomadas, percebemos uma certa dificuldade ao lidar com o descarte do lixo, que hoje são basicamente jogados em aterros, os conhecidos lixões. Isso pode ser muito preojudicial para o meio ambiente, não só pela acidificação dos solos, mas também pela liberação de gáses que afetam o efito estufa. </p>
             </article>
+
+                <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/imgs/lixao1.jpg" alt="Lixão"></div>
+                        <div class="swiper-slide"><img src="assets/imgs/lixao2.jpg" alt="Lixão"></div>
+                        <div class="swiper-slide"><img src="assets/imgs/lixao3.jpg" alt="Lixão"></div>
+                        <div class="swiper-slide"><img src="assets/imgs/lixao 4.jpg" alt="Lixão"></div>
+                        <div class="swiper-slide"><img src="assets/imgs/lixao5.jpg" alt="Lixo nas ruas"></div>
+                        <div class="swiper-slide"><img src="assets/imgs/lixao6.webp" alt="Lixo nas ruas"></div>
+                        <div class="swiper-slide"><img src="assets/imgs/lixao7.webp" alt="Lixo nas ruas"></div>
+                        </div>
+                        <div class="swiper-button-next" style="color: white;"></div>
+                        <div class="swiper-button-prev" style="color: white;"></div>
+                    </div>
+
+                    <article>
+                        <p><span>A</span>tualmente, enfrentamos uma grande crise relacionada à conscientização ambiental. Poucas famílias adotam um consumo responsável ou realizam ações que poderiam auxiliar na resolução de muitos dos conflitos ambientais, como a reciclagem.
+                        Além disso, a produção desenfreada das indústrias e o desperdício de alimentos provenientes de restaurantes, comércios ou até mesmo residências 
+                         são fatores que contribuem diretamente para a poluição atmosférica e o agravamento do aquecimento global.
+                        Outro ponto preocupante é o descarte incorreto de resíduos, sejam eles tóxicos, orgânicos, empresariais ou industriais, que ocorre em larga escala por todo o Brasil.</p>
+                    </article>
+
+                    <aside>
+                        <h1 style="font-size: 1.3rem;">Estatística da produção de lixo das regiões do Brasil:</h1>
+                        <p>TOTAL: 81 milhões de toneladas p/ano</p>
+
+                        <p>Região Sul:</p>
+                        <div id="sp-bar" style="width: 300px; height: 30px;">10,8 % </div>
+                        <p>Região Sudeste:</p>
+                        <div id="sd-bar" style="width: 300px; height: 30px;">49,3 %</div>
+                        <p>Região Centroeste:</p>
+                        <div id="ce-bar" style="width: 300px; height: 30px;">7,7 %</div>
+                        <p>Região Norte:</p>
+                        <div id="no-bar" style="width: 300px; height: 30px;">7,5 %</div>
+                        <p>Região Nordeste:</p>
+                        <div id="nr-bar" style="width: 300px; height: 30px;">24,7 %</div>
+                    </aside>
+
+                    <div>
+                        <h1>Impactos Negativos:</h1>
+                        
+                    </div>
         </section>
     </main>
     <footer>
 
     </footer>
+    <!-- Porcentagerm -->
+     <script src="https://cdn.jsdelivr.net/npm/progressbar.js"></script>
     <!-- Particulas -->
      <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
