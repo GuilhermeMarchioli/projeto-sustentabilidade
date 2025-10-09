@@ -108,9 +108,7 @@ function clickMenu() {
 }
 
 // abrir dialogs
-const modal1 = document.getElementById('modal1')
-const button1 = document.getElementById('button1')
-
-button1.click {
-  modal1.showModal()
+function abrirModal1() {
+  let modal1 = document.getElementById('modal1')
+  modal1.openModal()
 }
