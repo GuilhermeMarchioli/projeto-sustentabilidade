@@ -110,5 +110,30 @@ function clickMenu() {
 // abrir dialogs
 function abrirModal1() {
   let modal1 = document.getElementById('modal1')
-  modal1.openModal()
+  modal1.showModal()
+}
+
+function abrirModal2() {
+  let modal2 = document.getElementById('modal2')
+  modal2.showModal()
+}
+
+function abrirModal3() {
+  let modal3 = document.getElementById('modal3')
+  modal3.showModal()
+}
+
+function abrirModal4() {
+  let modal4 = document.getElementById('modal4')
+  modal4.showModal()
+}
+
+function abrirModal5() {
+  let modal5 = document.getElementById('modal5')
+  modal5.showModal()
+}
+
+function abrirModal6() {
+  let modal6 = document.getElementById('modal6')
+  modal6.showModal()
 }

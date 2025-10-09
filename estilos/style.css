@@ -325,3 +325,17 @@ div.block-neg h2 {
     color: rgb(7, 228, 143);
     margin: 15px;
 }
+
+/* estilos das dialogs */
+dialog {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    border: none;
+    border-radius: 25px;
+}
+
+dialog h1 {
+    font-size: 1em;
+}
