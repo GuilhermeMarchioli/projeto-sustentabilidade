@@ -353,3 +353,8 @@ dialog button {
     color: white;
     margin: auto;
 }
+
+/* Grafico do lixo */
+#graficoLixo {
+    margin-top: 120px;
+}
