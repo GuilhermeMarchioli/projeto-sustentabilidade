@@ -334,8 +334,22 @@ dialog {
     width: 90%;
     border: none;
     border-radius: 25px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 dialog h1 {
     font-size: 1em;
+}
+
+dialog button {
+    padding: 10px 25px;
+    border: 3px white solid;
+    border-radius: 25px;
+    background-color: rgb(7, 228, 143);
+    color: white;
+    margin: auto;
 }
