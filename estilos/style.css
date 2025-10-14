@@ -358,3 +358,97 @@ dialog button {
 #graficoLixo {
     margin-top: 120px;
 }
+
+/* A solução */
+section#solucao {
+    margin: auto;
+    margin-top: 150px;
+    width: 90%;
+    max-width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+section#solucao h1 {
+    font-family: 'MyLeaf';
+    color: rgb(2, 139, 71);
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+section#solucao h2 {
+    color: rgb(40, 116, 110);
+    margin: 15px;
+}
+
+section#solucao p {
+   margin: 20px;
+   font-size: 1rem;
+   color: rgb(40, 116, 110);
+   text-align: justify;
+   max-width: 100%;
+}
+
+section#solucao span {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(0, 128, 90);
+}
+
+section#solucao article {
+    margin-top: 25px;
+}
+
+section#solucao aside h2 {
+    text-align: center;
+}
+
+section#solucao img {
+    width: 100%;
+}
+
+section#solucao article {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+section#solucao aside {
+    margin-top: 35px;
+    padding: 15px;
+    border-radius: 25px;
+    height: 410px;
+    border-radius: 25px;
+    background-color: rgb(230, 255, 244);
+}
+
+section#solucao aside:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.37) ;
+    transition: all 0.5s;
+}
+
+section#solucao svg {
+    color: #6b3d91;
+    height: 70px;
+    width: 70px;
+}
+
+section#solucao h2 {
+    font-size: 1.3em;
+    margin: 15px 0px;
+}
+
+section#solucao i {
+    font-size: 70px;
+    color: rgb(0, 128, 90);
+}
