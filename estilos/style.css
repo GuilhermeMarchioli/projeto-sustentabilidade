@@ -452,3 +452,68 @@ section#solucao i {
     font-size: 70px;
     color: rgb(0, 128, 90);
 }
+
+section#contato {
+    margin: auto;
+    margin-top: 150px;
+    width: 90%;
+    max-width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+section#contato h2 {
+    color: rgb(40, 116, 110);
+    margin: 150x;
+}
+
+section#contato p {
+   margin: 5px;
+   font-size: 1.1rem;
+   color: rgb(40, 116, 110);
+   text-align: justify;
+   max-width: 100%;
+}
+
+section#contato span {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(0, 128, 90);
+}
+
+section#contato button {
+    margin: 10px;
+    padding: 12px 17px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(37, 216, 132);
+    color: white;
+}
+
+section#contato button:hover {
+    transform: scale(110%);
+    background-color: rgb(29, 158, 98);
+    transition-duration: 0.5s;
+}
+
+footer {
+    margin-top: 45px;
+    background-color: rgb(226, 255, 239);
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.1em;
+    color: rgb(1, 133, 78);
+}
+
+footer h2 {
+    font-size: 1.2em;
+    color: rgb(22, 131, 76);
+    font-weight: bold;
+}
