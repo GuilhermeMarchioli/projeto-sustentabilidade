@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 776px) {
+    header span {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav a {
+        margin: 15px;
+        text-decoration: none;
+        color: rgb(7, 196, 148);
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        font-size: 1.2rem;
+        border-bottom: 3px solid rgb(8, 243, 126);
+        transition-duration: 0.5s;
+    }
+
+    section#home {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    section#home #background {
+        width: 50%;
+    }
+
+    section#home h1 {
+        padding-right: 35px;
+    }
+
+    section#sobre {
+        flex-flow: row nowrap;
+        width: 90%;
+    }
+
+    section#sobre img {
+        width: 50%;
+    }
+
+    section#problema {
+        width: 90%;
+    }
+
+    section#problema p {
+        max-width: 990px;
+    }
+
+    div#impactos-negativos {
+        flex-flow: row wrap;
+    }
+
+    div.block-neg {
+        width: 260px;
+        margin: 25px;
+    }
+
+    section#solucao {
+        width: 90%;
+    }
+
+    section#solucao #solucao-intro {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    section#solucao #solucao-intro p {
+        max-width: 51%;
+    }
+
+    section#solucao img {
+        width: 30%;
+    }
+
+    section#solucao #solucao-intro p#ts {
+        max-width: 80%;
+        margin-top: 70px;
+    }
+
+    section#solucao p {
+        max-width: 80%;
+    }
+
+    iframe {
+        height: 500px;
+    }
+
+    section#solucao article#boxes {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    section#solucao aside {
+        width: 400px;
+        margin: 15px;
+    }
+}
+
+    
