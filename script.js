@@ -192,3 +192,9 @@ new Chart(ctx, {
     }
   }
 });
+
+AOS.init({
+    duration: 1000, // duração da animação
+    easing: 'ease-in-out', // suavização
+    once: true, // anima só na primeira vez que aparece
+  });

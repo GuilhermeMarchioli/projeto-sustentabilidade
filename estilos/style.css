@@ -294,6 +294,7 @@ div.block-neg:hover {
     background-color: rgb(7, 228, 143);
     transform: scale(110%);
     transition: all 1s;
+    cursor: pointer;
 }
 
 div.block-neg:hover i {
@@ -497,6 +498,7 @@ section#contato button:hover {
     transform: scale(110%);
     background-color: rgb(29, 158, 98);
     transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 footer {
