@@ -139,12 +139,13 @@ menu a {
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-decoration: none;
+        transition-duration: 1s;
 }
 
 menu a:hover {
     text-decoration: underline;
     background-color: rgb(193, 255, 193);
-    transition-duration: 1s;
+
 }
 
 nav {
@@ -288,19 +289,20 @@ div.block-neg {
     border-radius: 30px;
     padding: 15px;
     margin-top: 10px;
+        transition: all 1s;
+
 }
 
 div.block-neg:hover {
     background-color: rgb(7, 228, 143);
     transform: scale(110%);
-    transition: all 1s;
     cursor: pointer;
 }
+
 
 div.block-neg:hover i {
     background-color: white;
     color: rgb(13, 222, 142);
-    transition-duration: 1s;
 
 }
 
@@ -317,6 +319,8 @@ div.block-neg i {
     padding-right: 30px;
     background-color: rgb(7, 228, 143);
     border-radius: 100px;
+        transition-duration: 1s;
+
     
 }
 
@@ -324,6 +328,8 @@ div.block-neg h2 {
     font-size: 1em;
     color: rgb(7, 228, 143);
     margin: 15px;
+        transition-duration: 1s;
+
 }
 
 /* estilos das dialogs */

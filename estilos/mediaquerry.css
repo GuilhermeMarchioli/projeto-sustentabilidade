@@ -14,12 +14,13 @@
         text-decoration: none;
         color: rgb(7, 196, 148);
         font-weight: bold;
+                transition-duration: 0.5s;
+
     }
 
     nav a:hover {
         font-size: 1.2rem;
         border-bottom: 3px solid rgb(8, 243, 126);
-        transition-duration: 0.5s;
     }
 
     section#home {
